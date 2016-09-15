@@ -1,0 +1,30 @@
+html {
+        background: blue;
+}
+
+h1 {
+
+    text-align: center;
+}
+
+#buttons {
+
+    
+
+    color: red;
+}
+
+div#plugin1 {
+    height: 100px;
+    width: 100px;
+    border-radius: 5px;
+    background-color: #ABCDEF;
+}
+div#plugin2 {
+    height: 100px;
+    width: 100px;
+    border-radius: 5px;
+    background-color: #ABCDEF;
+    
+}
+
