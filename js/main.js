@@ -13,7 +13,5 @@ $("button").click(function(){
     });
 });
 
-$("div#plugin2").dbclick(function() {
-        $(this).fadeOut("fast");
-    });
+
 
