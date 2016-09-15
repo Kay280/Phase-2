@@ -1,5 +1,5 @@
 $(document).ready(function() {
-    $('div#plugin1').dblclick(function() {
+    $('#plugin1').dblclick(function() {
         $(this).fadeOut('fast');
     });
     
