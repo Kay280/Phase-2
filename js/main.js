@@ -13,7 +13,7 @@ $("button").click(function(){
     });
 });
 
-$('div#plugin2').dbclick(function() {
-        $(this).fadeOut('fast');
+$("div#plugin2").dbclick(function() {
+        $(this).fadeOut("fast");
     });
 
