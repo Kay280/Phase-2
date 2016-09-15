@@ -3,7 +3,7 @@ $(document).ready(function() {
         $(this).fadeOut('fast');
     });
     
-    $('#plugin2').dblclick(function() {
+    $('#plugin2').hover(function() {
         $(this).fadeOut('fast');
     });
     
