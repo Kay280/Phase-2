@@ -2,14 +2,13 @@ $(document).ready(function() {
     $('div#plugin1').dblclick(function() {
         $(this).fadeOut('fast');
     });
-});
-
-
-$(document).ready(function() {
-    $('div#plugin2').dblclick(function() {
+    
+    $('#plugin2').dblclick(function() {
         $(this).fadeOut('fast');
     });
+    
 });
+
    
 
 $("button").click(function(){
