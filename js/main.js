@@ -3,6 +3,13 @@ $(document).ready(function() {
         $(this).fadeOut('fast');
     });
 });
+
+
+$(document).ready(function() {
+    $('div#plugin2').dblclick(function() {
+        $(this).fadeOut('fast');
+    });
+});
    
 
 $("button").click(function(){
