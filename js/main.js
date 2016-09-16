@@ -13,29 +13,8 @@ $(document).ready(function() {
 
 $("button").click(function(){
     $.getJSON("http://api.fixer.io/latest", function(result){
-        console.log(result);
-        $.each(result.rates, function(i, field){
-            console.log(i);
-            $("div#output").append(i + " " + field + " ");
+        $.each(result, function(i, field){
+            $("div#output").append(field + " ");
         });
     });
 });
-
-function processResults(result: ExchangeRate) {
-
-}
-
-class ExchangeRate {
-    base: string,
-    date: string,
-    rates: [string, decimal]
-}
-
-
-
-
-
-
-
-
-
