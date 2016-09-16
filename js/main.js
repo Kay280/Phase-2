@@ -13,8 +13,10 @@ $(document).ready(function() {
 
 $("button").click(function(){
     $.getJSON("http://api.fixer.io/latest", function(result){
-        $.each(result, function(i, field){
-            $("div#output").append(field + " ");
+        console.log(result);
+        $.each(result.rates, function(i, field){
+            console.log(i);
+            $("div#output").append(i + " " + field + " ");
         });
     });
 });
